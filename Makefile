@@ -8,7 +8,7 @@ pipegrep: main.cpp args.cpp stage1.cpp stage2.cpp stage3.cpp stage4.cpp stage5.c
 	g++ -std=c++17 -pthread main.cpp args.cpp stage1.cpp stage2.cpp stage3.cpp stage4.cpp stage5.cpp -o pipegrep
 
 #remove compiled executale
-clean: rm -f pipegrep
-
+clean:
+	rm -f pipegrep
 #dont represent actual files
 .PHONY: all clean
