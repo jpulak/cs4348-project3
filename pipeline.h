@@ -1,0 +1,1 @@
+// shared variables, structures and function declarations
