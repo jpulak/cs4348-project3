@@ -1,0 +1,18 @@
+#ignore compiled executable
+pipegrep
+
+#ignore Windows executable
+pipegrep.exe
+
+#ignore compiled object files
+*.o
+
+#ignore local editor settings
+.vscode/
+
+#ignore local test output directory
+test_output/
+
+#ignore operating system files
+.DS_Store
+Thumbs.db
